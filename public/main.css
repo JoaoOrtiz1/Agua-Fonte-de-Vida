@@ -210,3 +210,86 @@ video{
 .video-infos p{
     font-size: 20px;
 }
+
+.gallery-page{
+    background-color: #024C86;
+}
+
+.title-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    background-color: #024C86;
+    width: 100%;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    
+}
+.gallery-content {
+    width: 48%;
+    margin: 1%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.gallery-content img{
+    border-radius: 25px;
+}
+
+.accordion-body{
+    display: flex;
+}
+
+.courses{
+    
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion{
+    width: 80%;
+}
+
+.accordion-button,
+.collapsed{
+    background-color: #024C86;
+    color: white;
+}
+.mod-video iframe,
+.mod-infos{
+    width:100%;
+    padding: 15px;
+    
+}
+
+.accordion-collapse{
+    background-color: #024C86;
+}
+
+.mod-infos,
+.mod-video{
+    width:50%;
+}
+.mod-infos h2{
+    font-size: 18px;
+    color: white;
+}
+
+.title-mod{
+    display: flex;
+    color: #024C86;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}

@@ -293,3 +293,39 @@ video{
     justify-content: center;
     padding-top: 20px;
 }
+
+.fale-conosco{
+    width: 100%;
+    height: 100%;
+}
+.fale-main{
+    background-color: #024C86;
+   height: 100%;
+}
+
+.fale-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d9e7ec;
+    padding: 2%;
+}
+.fale-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fale-image img{
+    width: 70%;
+    border-radius: 15px;
+}
+
+.fale-image a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+

@@ -34,8 +34,9 @@ app.get('/galeria', (req,res)=>{
                 image: val.image
             }
         });
+        res.render('galeria', {gallery: gallery});
     });
-    res.render('galeria', {gallery: Gallery});
+    
 })
 
 app.get('/curso', (req,res)=>{
@@ -50,6 +51,11 @@ app.get('/curso', (req,res)=>{
         res.render('curso', {course:course});
     });
 })
+
+
+app.get('/fale-conosco', (req,res)=>{
+    res.render('fale-conosco');
+});
 
 
 
